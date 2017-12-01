@@ -6,9 +6,9 @@
 
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
-    <link rel="stylesheet" type="text/css" href="Fonts/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <body>
@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-		<a class = "navbar-brand" href="index.php"><span><image src = "Images/logo.png" height= "30px" width="30px"></span><span>BayaniOne</span></a>
+		<a class = "navbar-brand" href="index.php"><span><image src = "../images/logo.png" height= "30px" width="30px"></span><span>BayaniOne</span></a>
         <!-- <a class="navbar-brand" href="index.html">BayaniOne<span>.</span></a> -->
 		</div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -149,7 +149,7 @@
 						<li><input id = "regUsername" type="text"  placeholder="Username" required id="txtusername"/></li>
 						<li> <input id = "regPassword" type="password"  placeholder="Password" required/></li>
 						<li> <input id = "regConPassword" type="password"  placeholder="Re-type Password" required/></li>
-            <li><button type="submit" class="signupbtn" height="59px"width="341px" id="btnregister">Sign Up</button></li>
+						<li><button type="submit" class="signupbtn" height="59px"width="341px" id="btnregister">Sign Up</button></li>
 
 					</div>
 					<div class="clear"> </div>
@@ -159,8 +159,8 @@
 		    </form>
 	</div>
     <</section>
-    <script src="Library/jquery.min.js"></script>
-    <script src="Library/bootstrap.min.js"></script>
+    <script src="../library/jquery.min.js"></script>
+    <script src="../library/bootstrap.min.js"></script>
     <footer id="myFooter">
         <div class="container">
             <div class="row">
@@ -199,9 +199,9 @@
             </div>
         </div>
         <div class="social-networks">
-              <a href="https://twitter.com" class="twitter"><img src="Images/twitterIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
-            <a href="https://facebook.com" class="facebook"><img src="Images/facebookIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
-            <a href="https://plus.google.com/" class="google"><img src="Images/googlePlusIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://twitter.com" class="twitter"><img src="../images/twitterIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://facebook.com" class="facebook"><img src="../images/facebookIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://plus.google.com/" class="google"><img src="../images/googlePlusIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
         </div>
         <div class="footer-copyright">
             <p>© 2017 BayaniOne </p>

@@ -9,22 +9,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>BayaniOne</title>
-  <!-- Bootstrap core CSS-->
-  <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-
-  <!-- Custom fonts for this template-->
-  <link rel="stylesheet" type="text/css" href="Fonts/font-awesome.min.css">
-
-  <!-- Custom styles for this template-->
-  <link rel="stylesheet" type="text/css" href="CSS/sb-admin.css">
-
+  
+  
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
+  
 </head>
 <body class="fixed-nav bg-dark" id="page-top">
     <form id="form1" runat="server">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
 
-    <a class = "navbar-brand" href="home.php"><span><img src = "Images/logo.png" height= "30px" width="30px"></span>       <span>BayaniOne</span></a>
+    <a class = "navbar-brand" href="home.php"><span><img src = "../images/logo.png" height= "30px" width="30px"></span>       <span>BayaniOne</span></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -167,7 +164,7 @@
             <!-- Example Social Card-->
             <div class="card mb-3">
               <a href="#">
-                <img class="card-img-top img-fluid w-100" src="Images/post.jpeg" alt="">
+                <img class="card-img-top img-fluid w-100" src="../images/post.jpeg" alt="">
               </a>
               <div class="card-body">
                 <h6 class="card-title mb-1"><a href="#">David Miller</a></h6>
@@ -210,13 +207,13 @@
       </div>
     </div>
     <!-- Bootstrap core JavaScript-->
-    <script src="Library/jquery.min.js"></script>
-    <script src="Library/popper.min.js"></script>
-    <script src="Library/bootstrap.min.js"></script>
+    <script src="../library/jquery.min.js"></script>
+    <script src="../ibrary/popper.min.js"></script>
+    <script src="../ibrary/bootstrap.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="Library/jquery.easing.min.js"></script>
+    <script src="../library/jquery.easing.min.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="Library/sb-admin.min.js"></script>
+    <script src="../ibrary/sb-admin.min.js"></script>
   </div>
     </form>
 </body>

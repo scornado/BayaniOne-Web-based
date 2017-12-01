@@ -1,18 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<html lang="en">
+<head>
 
     <title>BayaniOne</title>
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
-    <link rel="stylesheet" type="text/css" href="Fonts/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+	
 
 </head>
 <body>
-    <form id="form1" runat="server">
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <div class="navbar-header">
@@ -21,7 +22,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-		<a class = "navbar-brand" href="index.php"><span><image src = "Images/logo.png" height= "30px" width="30px"></span><span>BayaniOne</span></a>
+		<a class = "navbar-brand" href="index.php"><span><image src = "../images/logo.png" height= "30px" width="30px"></span><span>BayaniOne</span></a>
         <!-- <a class="navbar-brand" href="index.html">BayaniOne<span>.</span></a> -->
 		</div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -34,9 +35,9 @@
         </div>
       </div>
     </nav>
-        <div class="modal fade" id="login" role="dialog">
+    <div class="modal fade" id="login" role="dialog">
       <div class="modal-dialog modal-sm">
-
+      
         <!-- Modal content no 1-->
         <div class="modal-content">
           <div class="modal-header">
@@ -50,7 +51,7 @@
               <div class="form-group">
                 <form name="" id="loginForm">
                  <div class="form-group has-feedback"> <!----- username -------------->
-                      <input class="form-control" placeholder="Username"  id="loginid" type="text" autocomplete="off" />
+                      <input class="form-control" placeholder="Username"  id="loginid" type="text" autocomplete="off" /> 
             <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span><!---Alredy exists  ! -->
                       <span class="glyphicon glyphicon-user form-control-feedback"></span>
                   </div>
@@ -112,7 +113,7 @@
             <div class="service-box text-center">
               <div class="icon-box">
                 <!-- <i class="fa fa-html5 color-green"></i> -->
-				<i><img src="Images/feedingprogram.jpeg" alt="Image" class="img-responsive"></i>
+				<i><img src="../images/feedingprogram.jpeg" alt="Image" class="img-responsive"></i>
               </div>
               <div class="icon-text">
                 <h4 class="ser-text">DSWD Feeding Programs</h4>
@@ -123,7 +124,7 @@
           <div class="col-md-4 col-sm-6">
             <div class="service-box text-center">
               <div class="icon-box">
-                <i><img src="Images/clothes.jpg" alt="Image" class="img-responsive"></i>
+                <i><img src="../images/clothes.jpg" alt="Image" class="img-responsive"></i>
               </div>
               <div class="icon-text">
                 <h4 class="ser-text">Clothes Donations</h4>
@@ -134,7 +135,7 @@
           <div class="col-md-4 col-sm-6">
             <div class="service-box text-center">
               <div class="icon-box">
-                <i><img src="Images/donate.jpg" alt="Image" class="img-responsive"></i>
+                <i><img src="../images/donate.jpg" alt="Image" class="img-responsive"></i>
               </div>
               <div class="icon-text">
                 <h4 class="ser-text">Volunteers helps on  donating</h4>
@@ -159,7 +160,7 @@
             <div class="pm-staff-profile-container" >
               <div class="pm-staff-profile-image-wrapper text-center">
                 <div class="pm-staff-profile-image">
-                  <img src="Images/tes.jpg" alt="" class="img-thumbnail img-circle" />
+                  <img src="../images/tes.jpg" alt="" class="img-thumbnail img-circle" />
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
@@ -176,7 +177,7 @@
             <div class="pm-staff-profile-container" >
               <div class="pm-staff-profile-image-wrapper text-center">
                 <div class="pm-staff-profile-image">
-                  <img src="Images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                  <img src="../images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
@@ -191,7 +192,7 @@
             <div class="pm-staff-profile-container" >
               <div class="pm-staff-profile-image-wrapper text-center">
                 <div class="pm-staff-profile-image">
-                    <img src="Images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                    <img src="../images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
@@ -245,16 +246,16 @@
             </div>
         </div>
         <div class="social-networks">
-              <a href="https://twitter.com" class="twitter"><img src="Images/twitterIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
-            <a href="https://facebook.com" class="facebook"><img src="Images/facebookIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
-            <a href="https://plus.google.com/" class="google"><img src="Images/googlePlusIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://twitter.com" class="twitter"><img src="../images/twitterIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://facebook.com" class="facebook"><img src="../images/facebookIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
+            <a href="https://plus.google.com/" class="google"><img src="../images/googlePlusIcon.jpg" alt="" class="img-thumbnail img-circle"/></a>
         </div>
         <div class="footer-copyright">
             <p>© 2017 BayaniOne </p>
         </div>
     </footer>
-    <script src="Library/jquery.min.js"></script>
-    <script src="Library/bootstrap.min.js"></script>
-    </form>
+    <script src="../library/jquery.min.js"></script>
+    <script src="../library/bootstrap.min.js"></script>
+
 </body>
 </html>

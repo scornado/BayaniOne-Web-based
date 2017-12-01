@@ -8,18 +8,24 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>BayaniOne</title>
+  
   <!-- Bootstrap core CSS-->
-  <link href="CSS/bootstrap.min.css" rel="stylesheet">
-  <link href="Fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+  <!-- Custom fonts for this template-->
+  <link rel="stylesheet" type="text/css" href="../fonts/font-awesome.min.css">
+
   <!-- Custom styles for this template-->
-  <link href="CSS/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
+  
 </head>
+
 <body class="fixed-nav bg-dark" id="page-top">
     <form id="form1" runat="server">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
 
-    <a class = "navbar-brand" href="home.aspx"><span><image src = "img/logo.png" height= "30px" width="30px"></span>       <span>BayaniOne</span></a>
+    <a class = "navbar-brand" href="home.aspx"><span><image src = "../images/logo.png" height= "30px" width="30px"></span>       <span>BayaniOne</span></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -202,13 +208,13 @@
       </div>
     </div>
     <!-- Bootstrap core JavaScript-->
-    <script src="Library/jquery.min.js"></script>
-    <script src="Library/popper.min.js"></script>
-    <script src="Library/bootstrap.min.js"></script>
+    <script src="../library/jquery.min.js"></script>
+    <script src="../library/popper.min.js"></script>
+    <script src="../library/bootstrap.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="Library/jquery.easing.min.js"></script>
+    <script src="../library/jquery.easing.min.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="Library/sb-admin.min.js"></script>
+    <script src="../library/sb-admin.min.js"></script>
   </div>
     </form>
 </body>
